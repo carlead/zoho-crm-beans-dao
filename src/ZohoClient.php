@@ -56,7 +56,11 @@ class ZohoClient
      */
     public function __construct($authtoken, Client $zohoRestClient = null)
     {
-        $this->BASE_URI = $_ENV['URL_API_ZOHO'];
+		$this->BASE_URI = "https://crm.zoho.eu/crm/private";
+		if(@$_ENV['URL_API_ZOHO']) {
+			$this->BASE_URI = $_ENV['URL_API_ZOHO'];
+		}
+		
         $this->authtoken = $authtoken;
         // Only XML format is supported for the time being
         $this->format = 'xml';
