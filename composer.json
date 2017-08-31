@@ -1,8 +1,7 @@
 {
-	"name" : "wabel/zoho-crm-orm",
+	"name" : "carlead/zoho-crm-orm",
 	"description" : "An ORM like package used to manipulate data from your Zoho CRM Account through the API.",
 	"type" : "library",
-	"homepage" : "http://mouf-php.com",
 	"keywords" : [
 	  	"Zoho CRM",
 		"ZohoCRM",
