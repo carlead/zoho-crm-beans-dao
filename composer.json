@@ -1,5 +1,5 @@
 {
-	"name" : "carlead/zoho-crm-orm",
+	"name" : "carlead/zoho-crm-orm-bd",
 	"description" : "An ORM like package used to manipulate data from your Zoho CRM Account through the API.",
 	"type" : "library",
 	"keywords" : [
